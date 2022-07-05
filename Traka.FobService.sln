@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traka.FobService", "Traka.FobService\Traka.FobService.csproj", "{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traka.FobService.Tests", "Traka.FobService.Tests\Traka.FobService.Tests.csproj", "{BB68E269-3207-4349-9EB3-CCEA920686FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61C2C43E-C726-4B82-B9A3-87DD2B6A32B4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}.Debug|x64.Build.0 = Debug|Any CPU
+		{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}.Debug|x86.Build.0 = Debug|Any CPU
+		{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}.Release|x64.ActiveCfg = Release|Any CPU
+		{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}.Release|x64.Build.0 = Release|Any CPU
+		{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}.Release|x86.ActiveCfg = Release|Any CPU
+		{5EF72506-9A3C-4A49-8F5D-4A49846AD43B}.Release|x86.Build.0 = Release|Any CPU
+		{BB68E269-3207-4349-9EB3-CCEA920686FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB68E269-3207-4349-9EB3-CCEA920686FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB68E269-3207-4349-9EB3-CCEA920686FE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BB68E269-3207-4349-9EB3-CCEA920686FE}.Debug|x64.Build.0 = Debug|Any CPU
+		{BB68E269-3207-4349-9EB3-CCEA920686FE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB68E269-3207-4349-9EB3-CCEA920686FE}.Debug|x86.Build.0 = Debug|Any CPU
+		{BB68E269-3207-4349-9EB3-CCEA920686FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB68E269-3207-4349-9EB3-CCEA920686FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB68E269-3207-4349-9EB3-CCEA920686FE}.Release|x64.ActiveCfg = Release|Any CPU
+		{BB68E269-3207-4349-9EB3-CCEA920686FE}.Release|x64.Build.0 = Release|Any CPU
+		{BB68E269-3207-4349-9EB3-CCEA920686FE}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB68E269-3207-4349-9EB3-CCEA920686FE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50FE9B96-9604-44E4-92FB-1ABE90CC80F3}
+	EndGlobalSection
+EndGlobal
