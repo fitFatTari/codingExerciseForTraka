@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using NUnit.Framework;
 using Traka.FobService.Model;
+using System.Linq;
 
 namespace Traka.FobService.IntegrationTests
 {
@@ -101,6 +102,18 @@ namespace Traka.FobService.IntegrationTests
             Assert.That(fobs, Has.Count.EqualTo(2));
             Assert.That(fobs, Has.Exactly(1).Matches<Fob>(fob => fob.SerialNumber == "A6E77B080000"));
             Assert.That(fobs, Has.Exactly(1).Matches<Fob>(fob => fob.SerialNumber == "BC2433AF8299"));
+        }
+
+        [TestCase]
+        public async Task Put_Updates_FobUser()
+        {
+            var response = await _client.PutAsync("/system/1/assignfob/5/3", null);
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
+
+            response = await _client.GetAsync("/user/3/fobs");
+            var fobs = await response.Content.ReadFromJsonAsync<List<Fob>>();
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
+            Assert.That(fobs.FirstOrDefault().Position == 5);
         }
     }
 }
